@@ -1,0 +1,101 @@
+*{
+    padding:0;
+    margin: 0
+}
+.all{
+    width: 90vw;
+    display: flex;
+    margin: 5vw auto 0;
+    flex-wrap: wrap
+}
+.all>div{
+    width: 29vw;
+    border: 1px solid gainsboro;
+    color: #56aae6
+    
+}
+.piao{
+    text-align: center
+}
+.image1{
+    width: 20vw;
+    height: 20vw;
+    margin-left: 5vw;
+}
+.dashang{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    margin: 5vw auto;
+    display: block
+}
+.dashangjine{
+    width: 50vw;
+    /* display: block; */
+    border:3px solid gainsboro;
+    height: 7vw;
+    font-size: 4vw;
+    margin: 3vw 25vw;
+    padding: 1vw;
+    border-radius: 5px;
+    display:none;
+}
+.shuru{
+    text-align: center
+}
+.biaoti{
+    text-align: center;
+    /* font-weight: bold; */
+    margin: 3vw auto;
+
+}
+.im{
+    display: block;
+    width: 100vw;
+    height: 100vw;
+    /* margin: 5vw 25vw; */
+
+}
+.niandu{
+    margin-top: 2vw;
+    text-align: center;
+    font-size: 5vw;
+    border-bottom: 2vw solid gainsboro;
+    padding-bottom: 2vw
+
+}
+.kuang{
+    width: 50vw;
+    padding: 2vw;
+    margin: 5vw auto 0;
+    box-shadow: 0 0 5px black
+}
+.qianqianqian{
+    text-align: center;
+    color: red;
+    font-size: 5vw;
+    margin-top: 3vw
+}
+.jishu{
+    display: block;
+    text-align: center;
+    margin: 5vw auto 0;
+    padding: 3vw;
+    background-color: #e5e2e2;
+    text-decoration: none;
+    color: #56aae6;
+    font-weight: bold;
+    font-size: 4vw; 
+}
+.image2{
+    width: 100vw;
+    height: 16.5vw;
+}
+.ii{
+    position: absolute;
+    background-color: transparent;
+    top: 0
+}

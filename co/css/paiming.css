@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin:0
+}
+.caidan{
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    height: 7vw;
+    width: 100vw;
+    background-color: #fff;
+    font-size: 2.2vw;
+    text-align: center
+}
+.img32{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-top: 0.1vw;    
+}
+@media screen and (max-width:768px){
+    .caidan{
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-around;
+        bottom: 0;
+        height: 15vw;
+        width: 100vw;
+        background-color: #fff;
+        font-size: 4vw;   
+        text-align: center             
+    }
+    .img32{
+        width: 7vw;
+        height: 7vw;
+        margin-top: 1vw;
+    }
+}
+.diyi{
+    text-align: left;
+    font-size: 3.5vw;
+    margin-top: 5vw;
+}
+.dier{
+    text-align: left;
+    font-size: 3.5vw;
+    margin-top: 5vw;
+}
+.disan{
+    text-align: left;
+    font-size: 3.5vw;
+    margin-top: 5vw;
+}
+.div33{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
